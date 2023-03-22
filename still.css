@@ -10,8 +10,14 @@ body{
     background: beige;
     color: rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: wavy;
     font-weight: 500;
-    margin: 20;
+    border: 10px solid indianred;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
 
 }
+h2,h3,h4,h5,h6{
+    text-decoration: underline;
+}
+    
