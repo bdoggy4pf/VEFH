@@ -20,4 +20,13 @@ body{
 h2,h3,h4,h5,h6{
     text-decoration: underline;
 }
-    
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    height: 40px;
+    border: 1px indianred;
+
+}
+
