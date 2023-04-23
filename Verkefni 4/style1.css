@@ -1,3 +1,23 @@
 .div{
+    border: 1px solid;
+}
+
+.dalkar4{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 600px){
     
+    .dalkar4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 768px){
+    
+    .dalkar4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
