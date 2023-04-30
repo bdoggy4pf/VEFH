@@ -1,10 +1,18 @@
 body{
     background-color: midnightblue;
+    color: white;
 }
 
 img{
     max-width: 100%;
     height: auto;
+}
+
+.textiogmynd{
+    font-size: larger;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .myndarod{
@@ -26,6 +34,23 @@ img{
         display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 480px){
+    .textiogmynd{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .textiogmynd{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
